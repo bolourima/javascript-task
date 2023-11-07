@@ -465,8 +465,8 @@
 //   for (j = 0; j < numbers.length; j++) {
 //     console.log("j", numbers[j]);
 //     if (numbers[i] < numbers[j]) {
-//       console.log("i umber", numbers[i]);
-//       console.log("j umber", numbers[j]);
+//       console.log("i number", numbers[i]);
+//       console.log("j number", numbers[j]);
 //       var x = numbers[i];
 //       numbers[i] = numbers[j];
 //       numbers[j] = x;

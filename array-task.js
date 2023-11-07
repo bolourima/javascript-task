@@ -20,13 +20,11 @@
 // }
 // console.log(fib);
 
-
 // // array dah suuliin elementiig solih
 
 // const lastelement = [10, 20, 30, 40, 50];
 // lastelement[4] = 30;
 // console.log(lastelement)
-
 
 // // Гараас массив доторх эерэг болон тэгш тооны нийлбэрийг олох
 
@@ -39,7 +37,6 @@
 // }
 // } console.log(sum)
 
-
 // // // Chunk - Массивыг өгөгдсөн тоотой хэсэг болгон хуваах аргыг бич, loop push
 // const outputtwo = [1, 2, 3, 4, 5, 6, 7, 8];
 // let insert = 2;
@@ -51,7 +48,35 @@
 
 // console.log(emptyArr);
 
-// Find max and Min 
-const findMaxMin = [1, 3, 5, 22, 89, 46, 17, 31, 59]
-x = Math.max(findMaxMin)
-console.log(x)
+// Find max and Min
+// const findMaxMin = [1, 3, 5, 22, 89, 46, 17, 31, 23];
+// let min = findMaxMin[0];
+// let max = findMaxMin[0];
+// for (i = 1; i < findMaxMin.length; i++) {
+//   if (findMaxMin[i] < min) {
+//     min = findMaxMin[i];
+//   }
+//   if (findMaxMin[i] > max){
+//     max = findMaxMin[i];
+//   }
+// }
+
+// console.log(min, max);
+
+
+//sort in array
+// const numbers = [5, 4, 3, 2, 1];
+// for (i = 0; i < numbers.length; i++) {
+//   for (j = 0; j < numbers.length; j++) {
+//     if (numbers[i] < numbers[j]) {
+//       var x = numbers[i];
+//       numbers[i] = numbers[j];
+//       numbers[j] = x;
+//     }
+//   }
+// }
+// console.log(numbers);
+
+// Find Longest increasing Subsequence - Массив доторх хамгийн урт өссөн дэд дарааллыг ол.
+
+// const num = [10, 9, 2, 5, 3, 7, 101, 18];
