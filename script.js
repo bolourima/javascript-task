@@ -186,7 +186,7 @@
 //   console.log(`Number 3 is the hishest number: ${number3}`);
 // }
 
-// // Second largest
+// // // Second largest
 // let a = prompt("Number 1:");
 // let b = prompt("Number 2:");
 // let c = prompt("Number 3:");
@@ -482,21 +482,185 @@
 // }
 // console.log(ascendingOrder['a'])
 
-
 //
-const data = [
-         {
-          productName:"Bakery", 
-         unitPrice:5000, 
-         amount: 200, 
-         totalPrice: 500000,  
-         casherId:1, 
-         date: '2022-11-01'},
-         {
-          productName:"Chocolate", 
-          unitPrice:3000, 
-          amount: 18, 
-          totalPrice: 54000 
-          casherId:1, 
-          date: '2022-11-01'},
-];
+// const data = [
+//   {
+//     productName: "Bakery",
+//     unitPrice: 5000,
+//     amount: 200,
+//     totalPrice: 500000,
+//     casherId: 1,
+//     date: "2022-11-01",
+//   },
+//   {
+//     productName: "Chocolate",
+//     unitPrice: 3000,
+//     amount: 18,
+//     totalPrice: 54000,
+//     casherId: 1,
+//     date: "2022-11-01",
+//   },
+//   {
+//     productName: "Milk",
+//     unitPrice: 1500,
+//     amount: 320,
+//     totalPrice: 480000,
+//     casherId: 1,
+//     date: "2022-11-01",
+//   },
+//   {
+//     productName: "Sneaker",
+//     unitPrice: 2000,
+//     amount: 30,
+//     totalPrice: 60000,
+//     casherId: 1,
+//     date: "2022-11-01",
+//   },
+//   {
+//     productName: "Juice",
+//     unitPrice: 3500,
+//     amount: 20,
+//     totalPrice: 70000,
+//     casherId: 1,
+//     date: "2022-11-01",
+//   },
+//   {
+//     productName: "Juice-2",
+//     unitPrice: 4500,
+//     amount: 21,
+//     totalPrice: 84500,
+//     casherId: 1,
+//     date: "2022-11-01",
+//   },
+//   {
+//     productName: "Cigar",
+//     unitPrice: 5000,
+//     amount: 50,
+//     totalPrice: 250000,
+//     casherId: 1,
+//     date: "2022-11-01",
+//   },
+//   {
+//     productName: "M&M",
+//     unitPrice: 4100,
+//     amount: 10,
+//     totalPrice: 41000,
+//     casherId: 1,
+//     date: "2022-11-01",
+//   },
+//   {
+//     productName: "Cola",
+//     unitPrice: 2400,
+//     amount: 5,
+//     totalPrice: 12000,
+//     casherId: 1,
+//     date: "2022-11-01",
+//   },
+//   {
+//     productName: "Orange",
+//     unitPrice: 1000,
+//     amount: 270,
+//     totalPrice: 270000,
+//     casherId: 1,
+//     date: "2022-11-01",
+//   },
+//   {
+//     productName: "Mushroom",
+//     unitPrice: 1000,
+//     amount: 55,
+//     totalPrice: 55000,
+//     casherId: 1,
+//     date: "2022-11-01",
+//   },
+//   {
+//     productName: "Brokkli",
+//     unitPrice: 5000,
+//     amount: 5,
+//     totalPrice: 25000,
+//     casherId: 1,
+//     date: "2022-11-01",
+//   },
+//   {
+//     productName: "Oil",
+//     unitPrice: 11000,
+//     amount: 4,
+//     totalPrice: 44000,
+//     casherId: 1,
+//     date: "2022-11-01",
+//   },
+//   {
+//     productName: "paper",
+//     unitPrice: 500,
+//     amount: 3,
+//     totalPrice: 1500,
+//     casherId: 1,
+//     date: "2022-11-01",
+//   },
+//   {
+//     productName: "Icecream",
+//     unitPrice: 300,
+//     amount: 140,
+//     totalPrice: 45000,
+//     casherId: 1,
+//     date: "2022-11-01",
+//   },
+//   {
+//     productName: "water",
+//     unitPrice: 1250,
+//     amount: 10,
+//     totalPrice: 12500,
+//     casherId: 1,
+//     date: "2022-11-01",
+//   },
+// ];
+// var sum = 0;
+// for (let i = 0; i < data.length; i++) {
+//   sum = sum + data[i].totalPrice;
+// }
+// console.log(`1. Niit borluulaltiin dun ${sum} baina`);
+
+// var productsum = 0;
+// for (let j = 0; j < data.length; j++) {
+//   productsum += data[j].amount;
+// }
+// console.log(`2. Niit borluulagdsan baraani too ${productsum} shirheg baina`);
+
+// for (let l = 0; l < data.length; l++) {
+//   for (let h = l; h < data.length; h++)
+//     if (data[l].amount < data[h].amount) {
+//       var x = data[l].amount;
+//       data[l].amount = data[h].amount;
+//       data[h].amount = x;
+//     } 
+// }
+// console.log(data[l].amount.slice(5))
+// console.log(`4. Hamgiin ih zaragdsan 5 baraani jagsaalt/too hemjeegeer/ 
+// ${data[0].amount} ${data[1].amount} ${data[2].amount} ${data[3].amount} ${data[4].amount}`);
+
+
+//Parking system
+//new Date(year, month, day, hours, minutes, seconds, milliseconds);
+
+// const firstDate = new Date("2023-11-07T12:15:00");
+// const endDate = new Date("2023-11-07T12:15:29");
+// let t = (endDate.getHours()) - (firstDate.getHours()) 
+// console.log(t)
+// let m = (endDate.getMinutes()) - (firstDate.getMinutes()) 
+// console.log(m)
+// allMinut = ((t * 60) + m)
+// let s = (endDate.getSeconds()) - (firstDate.getSeconds())
+// console.log(s) 
+// if (allMinut <= 30 && s <=   59){
+//   console.log('Ehnii 30 minut unegui')
+// }
+// console.log(firstDate.getHours())
+// console.log(firstDate.getMinutes())
+// console.log(firstDate.getSeconds())
+
+// // 
+// let totalMinut = 0
+// if(totalMinut < 30){
+//   console.log('Ehnii guchin minut unegui')
+// } else {
+//   for( i = 31; i < totalMinut; i += 60)}
+      
