@@ -227,7 +227,7 @@
 //     console.log(' 2 sard 28 honog baina')
 // } else { console.log('hi')}
 
-//FOR , WHILE LOOP
+// FOR , WHILE LOOP
 
 // let num = 10;
 // while(num>0){
@@ -385,7 +385,7 @@
 // }
 // console.log(upperLetterfunction(text));
 
-//Ugugdsun temdegt muriin buh usgiig jijig usgeer bich
+// Ugugdsun temdegt muriin buh usgiig jijig usgeer bich
 // let text =
 //   "Lorem ipsum dolor SIT AAAA amet consectetur adipisicing elit. Animi, maiores!";
 // let result;
@@ -409,7 +409,7 @@
 
 // ARRAY
 
-//Өгөгдсөн array - ийн гишүүдийн нийлбэрийн дундажыг ол. Input: [10, 20, 30, 40, 50]
+// Өгөгдсөн array - ийн гишүүдийн нийлбэрийн дундажыг ол. Input: [10, 20, 30, 40, 50]
 // const arr = [10, 20, 30, 40, 50];
 // var sum = 0;
 // for(let i = 0; i < arr.length; i++){
@@ -458,7 +458,7 @@
 
 //      OBJECT
 
-//sort in array
+// sort in array
 // const numbers = [5, 4, 3, 2, 1];
 // for (i = 0; i < numbers.length; i++) {
 //   console.log("i", numbers[i]);
@@ -482,7 +482,7 @@
 // }
 // console.log(ascendingOrder['a'])
 
-//
+
 // const data = [
 //   {
 //     productName: "Bakery",
@@ -638,8 +638,8 @@
 // ${data[0].amount} ${data[1].amount} ${data[2].amount} ${data[3].amount} ${data[4].amount}`);
 
 
-//Parking system
-//new Date(year, month, day, hours, minutes, seconds, milliseconds);
+// Parking system
+// new Date(year, month, day, hours, minutes, seconds, milliseconds);
 
 // const firstDate = new Date("2023-11-07T12:15:00");
 // const endDate = new Date("2023-11-07T12:15:29");

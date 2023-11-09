@@ -80,3 +80,23 @@
 // Find Longest increasing Subsequence - Массив доторх хамгийн урт өссөн дэд дарааллыг ол.
 
 // const num = [10, 9, 2, 5, 3, 7, 101, 18];
+
+
+//find max subarray sum 
+// const nums = [1, -2, 3, 4, -1, 2, 1, -5, 4]
+//  var maxSubArray = function(nums) {
+//     var max = nums[0];
+
+//     for(i = 0; i < nums.length; i++){
+//         for(j = i; j <nums.length; j++){
+//             let sum = 0; 
+//             for(k = i; k <= j; k++){
+//                 sum += nums[k]
+//             }
+//             max = Math.max(max, sum)
+//         }
+//     }
+//     return max
+//  }
+
+//  console.log(maxSubArray(nums))
