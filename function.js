@@ -39,21 +39,21 @@
 // console.log(task(x))
 
 //Гараас өгүүлбэр оруулаад түүнээс хамгийн урт үгийг олдог функц бичих
-let senten = "sainuu yu baina hune";
-let longestWord = 0;
-function howLongsent(senten) {
-  salgasan = senten.split(" ");
-  for (let i = 0; i < salgasan.length; i++) {
-    if (salgasan[i].length > longestWord) {
-      longestWord = salgasan[i].length;
-    }
-  }
-  return longestWord;
-}
-console.log(howLongsent(senten));
+// let senten = "sainuu yu baina hune";
+// let longestWord = 0;
+// function howLongsent(senten) {
+//   salgasan = senten.split(" ");
+//   for (let i = 0; i < salgasan.length; i++) {
+//     if (salgasan[i].length > longestWord) {
+//       longestWord = salgasan[i].length;
+//     }
+//   }
+//   return longestWord;
+// }
+// console.log(howLongsent(senten));
 
 
 // Toonii mashin + - hoyulang hiideg tusdaa hariugargadag
-const calculator = {
+// const calculator = {
 
-}
+// }
