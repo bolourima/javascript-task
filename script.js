@@ -304,14 +304,14 @@
 // }
 
 // // NESTED LOOP - Od hevleh
-// let n = prompt("number: ");
-// for (let i = n; i > 0; i--) {
-//   let res = "";
-//   for (let j = i; j > 0; j--) {
-//     res += "*";
-//   }
-//   console.log(res);
-// }
+let n = 5;
+for (let i = n; i > 0; i--) {
+  let res = "";
+  for (let j = i; j > 0; j--) {
+    res += "*";
+  }
+  console.log(res);
+}
 
 // for (let i = 1; i <= 10; i++) {
 //   if (i == 6) {

@@ -63,7 +63,6 @@
 
 // console.log(min, max);
 
-
 //sort in array
 // const numbers = [5, 4, 3, 2, 1];
 // for (i = 0; i < numbers.length; i++) {
@@ -81,15 +80,14 @@
 
 // const num = [10, 9, 2, 5, 3, 7, 101, 18];
 
-
-//find max subarray sum 
+//find max subarray sum
 // const nums = [1, -2, 3, 4, -1, 2, 1, -5, 4]
 //  var maxSubArray = function(nums) {
 //     var max = nums[0];
 
 //     for(i = 0; i < nums.length; i++){
 //         for(j = i; j <nums.length; j++){
-//             let sum = 0; 
+//             let sum = 0;
 //             for(k = i; k <= j; k++){
 //                 sum += nums[k]
 //             }
@@ -100,3 +98,33 @@
 //  }
 
 //  console.log(maxSubArray(nums))
+
+//
+
+// const array1 = [1, 1, 1, 1, 1];
+// let numberis = 5;
+// // array1[0]=5;
+// // array1[1]=5;
+// // array1[2]=5;
+// // array1[3]=5;
+// // array1[4]=5;
+// for(let i = 0; i < array1.length; i++){
+//     array1[i] = numberis
+// }
+// console.log(array1);
+
+const array = [
+    {
+      firstName: "Narantsatsralt",
+      lastName: "Bumnasan",
+      phoneNumber: "99111111",
+    },
+    { firstName: "Namkhai", lastName: "Bumnasan", phoneNumber: "99111111" },
+    { firstName: "Gundalai", lastName: "Bumnasan", phoneNumber: "99111111" },
+    { firstName: "Lkhamjav", lastName: "Bumnasan", phoneNumber: "99111111" },
+    { firstName: "Serik", lastName: "Bumnasan", phoneNumber: "99111111" },
+  ];
+  
+//   const firstNames = array.map(obj => obj.firstName);
+  console.log(array.map(obj => obj.firstName));
+  

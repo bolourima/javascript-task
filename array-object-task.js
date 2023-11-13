@@ -32,33 +32,71 @@
 // Person.fullName();
 // console.log(Person.fullName);
 
+
+
+
 // ReadMe
-// var readMe = 2;
+// huvisagchid too uguud ter huvisagchaa arrayd baigaa uguig oloh,huvisagchid too uguud ter huvisagchaa array iin hed deh index deer bgaag oloh
+// var readMe = 70;
 // const array = [1, 2, 4, 5, 6, 7, 8, 9, 10];
+
 // function findVariable(readMe) {
 //   for (let i = 0; i < array.length; i++) {
-//     if (array[i] === readMe){
-//         return readMe;
-//     } 
+//     if (array[i] === readMe) {
+//       return i; 
+//     }
 //   }
 //   return null;
 // }
-// console.log(findVariable(readMe));
 
+// const index = findVariable(readMe);
 
-var readMe = 2;
-const array = [1, 2, 4, 5, 6, 7, 8, 9, 10];
+// if (index !== null) {
+//   console.log(`Element ${readMe} is at index No ${index}`);
+// } else {
+//   console.log(`Element ${readMe} is not in the array.`);
+// }
+// //array iin tugsguluus N shirheg element ustgah 
+// const array2 = [1, 2, 3, 4, 5, 6, 7, 8];
+// const N = 2; 
+// const newArray = array2.slice(0, array2.length - N);
+// console.log(newArray);
 
-function findVariable(readMe) {
-  for (let i = 0; i < array.length; i++) {
-    if (array[i] === readMe) {
-      return readMe;
-    }
-  }
-  return null; 
-}
+// //array iin ehlelees N shirheg element ustgah 
+// const array3 = [1, 5, 34, 56, 75, 7, 8, 4];
+// const L = 3;
+// const slicedArray = array3.slice(L);
+// console.log(slicedArray)
 
-console.log(findVariable(readMe));
+//string ees suulin usgiig ustgah 
+// const string1 = 'Hello good morning';
+// const splitedString = string1.split("");
+// splitedString.pop()
+// resultString = splitedString.join('')
+// console.log(resultString)
+
+//2 array iig niiluuleh
+// const array1 = [1, 1, 1, 1];
+// const array2 = [2, 2, 2, 2];
+// const sumArray = array1.concat(array2)
+// console.log(sumArray)
+
+//string, too holildson arrayaas string, toog ni yalgaj 2 arrayd hiih
+// const mixedArray = [1, 'string', 295, 'human', 99];
+// const numberArray = [];
+// const stringArray = [];
+
+// for (let i = 0; i < mixedArray.length; i++) {
+//   if (typeof mixedArray[i] === 'number') {
+//     numberArray.push(mixedArray[i]);
+//   } else if (typeof mixedArray[i] === 'string') {
+//     stringArray.push(mixedArray[i]);
+//   }
+// }
+
+// console.log(numberArray); 
+// console.log(stringArray);
+
 
 //Array reverse 1-10 toog reverse hiih
 
@@ -109,6 +147,7 @@ console.log(findVariable(readMe));
 //     averageGrade: 85,
 //   },
 // };
+
 // for (const studentNumber in students) {
 //   const student = students[studentNumber];
 //   const totalGrades = student.grades.reduce((sum, grade) => sum + grade, 0);

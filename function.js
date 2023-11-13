@@ -52,8 +52,34 @@
 // }
 // console.log(howLongsent(senten));
 
-
 // Toonii mashin + - hoyulang hiideg tusdaa hariugargadag
-// const calculator = {
-
+// let a = 7;
+// let b = 2;
+// function sumAB(a, b) {
+//     sumResult = a + b; 
+//     return sumResult;
 // }
+// function hasah(a,b){
+//     hasahresult = a - b;
+//     return hasahresult
+// }
+// console.log(`A+b = ${sumAB(a,b)}, A-b = ${hasah(a,b)}`)
+
+
+
+// Palindrom Checker 
+let word = 'ralcar';
+
+function Palindrom(word){
+    splitedword = word.split('')
+    for(let i = 0; i < splitedword.length; i++){
+        for (let j = splitedword.length - 1; j >= 0 ; j--){
+            if(splitedword[i] === splitedword[j]){
+                return true
+            } else {
+                return false
+            }
+        }
+    }
+}
+console.log(Palindrom(word))
