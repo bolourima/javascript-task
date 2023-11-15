@@ -31,7 +31,7 @@
 // const array7 = array.map(
 //   (el) => el.firstName.charAt() + "." + el.lastName.charAt()
 // );
-// console.log(array7);
+// console`.log(array7);
 // //### Task Set for `filter`:
 // //6. **Even Numbers:**   Given an array of numbers, use the `filter` method to create a new array containing only the even numbers.
 
@@ -41,28 +41,43 @@
 
 
 // //7. **Positive Numbers:**   Create a function that takes an array of numbers and uses `filter` to generate a new array containing only the positive numbers.
-// const array6 = [1, 4, -5, 22, 4, -5];
+const array6 = [1, 4, -5, 22, 4, -5];
 // const positiveNum = array6.filter(el => el > 0)
-// console.log(positiveNum)
+const positiveNum = array6.filter(function (el) {
+  return el > 0;
+})
+console.log(positiveNum)
 
 
 // //8. **Long Words:**   Given an array of words, use `filter` to create a new array with only the words that have a length greater than a specified number.
 
-// const words = [ 'animals', 'bts', 'bangtansonyeangdan', 'jungkook','rm']
+const words = [ 'animals', 'bts', 'bangtansonyeangdan', 'jungkook','rm']
 // console.log(words.filter(obj => obj.length > 7))
+console.log(words.filter(function (obj) {
+  return obj.length > 7;
+}))
 
 //9. **Prime Numbers:**   Create a function that takes an array of numbers and uses `filter` to generate a new array containing only the prime numbers.
 
 // const primeNum = []
 // Өгөгдсөн тоо анхны эсэхийг олох функц бич
-let num = 7;
-let result;
-let i;
-function primeNumberFunction (num) {
-  if(num < 1){
-    for(let i = num; i <= num; i--){
-      result = num % i
-    } return
+function isPrime(num) {
+  if (num <= 1) return false;
+  for (let i = 2; i <= Math.sqrt(num); i++) {
+    if (num % i === 0) {
+      return false;
+    }
   }
+  return true;
 }
+
+function filterPrimes(numbers) {
+  return numbers.filter(isPrime);
+}
+
+const numbersArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+const primeNumbersArray = numbersArray.filter(isPrime);
+
+console.log(primeNumbersArray); 
+
 //10. **Search by Starting Letter:**    Given an array of words, use `filter` to create a new array with only the words that start with a specific letter.

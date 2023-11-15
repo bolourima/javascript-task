@@ -396,16 +396,16 @@ for (let i = n; i > 0; i--) {
 // console.log(upperLetterfunction(text));
 
 // Өгөгдсөн тоо анхны эсэхийг олох функц бич
-// let num = 7;
-// let result;
-// let i;
-// function primeNumberFunction (num) {
-//   if(num < 1){
-//     for(let i = num; i <= num; i--){
-//       result = num % i
-//     } return
-//   }
-// }
+let num = 7;
+let result;
+let i;
+function primeNumberFunction (num) {
+  if(num < 1){
+    for(let i = num; i <= num; i--){
+      result = num % i
+    } return
+  }
+}
 
 // ARRAY
 
